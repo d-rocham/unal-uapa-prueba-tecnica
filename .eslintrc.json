@@ -5,6 +5,8 @@
     },
     "extends": [
         "plugin:react/recommended",
+	    "plugin:react-hooks/recommended",
+        "airbnb-typescript",
         "airbnb"
     ],
     "parser": "@typescript-eslint/parser",
@@ -12,13 +14,33 @@
         "ecmaFeatures": {
             "jsx": true
         },
+        "project": "./tsconfig.json",
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
     "plugins": [
         "react",
-        "@typescript-eslint"
+        "react-hooks",
+        "@typescript-eslint",
+        "disable"
     ],
+    "processor": "disable/disable",
+    "overrides": [
+        {
+            "files": ["*"],
+            "settings": {
+                "disable/plugins": ["jsx-a11y"]
+            }
+        }
+    ],
+
     "rules": {
+        "react/jsx-filename-extension": [0, { "extensions": [".js", ".ts"] }],
+        "react/button-has-type": [0],
+        "react/require-default-props": [0],
+        "no-unused-vars": [1],
+        "no-nested-ternary": [0],
+        "import/no-cycle": [1],
+        "@typescript-eslint/no-unused-vars": [1]
     }
 }
