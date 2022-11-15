@@ -7,7 +7,7 @@ type Props = {
 
 function FooterColumn({ info }: Props) {
     return (
-        <div className="FooterColumnContainer flex flex-col text-light-text">
+        <div className="FooterColumnContainer flex flex-col text-white">
             <h1 className="ColumnTitle font-semibold text-lg text-center xl:text-justify pb-6">
                 {info.title}
             </h1>
