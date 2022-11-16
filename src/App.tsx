@@ -1,10 +1,10 @@
 import React from 'react';
-import Footer from './components/Components';
-import Body from './components/body/Body';
+import { Header, Body, Footer } from './components/Components';
 
 function App() {
     return (
         <div className="App min-h-screen flex flex-col justify-between">
+            <Header />
             <Body />
             <Footer />
         </div>
