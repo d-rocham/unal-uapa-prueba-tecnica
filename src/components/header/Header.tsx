@@ -1,9 +1,14 @@
 import React from 'react';
-import { Button } from '../utils/Utils';
+import { Button, SocialIcons } from '../utils/Utils';
+import Navbar from './Navbar';
 
 function Header() {
     return (
-        <div className="bg-hero-image bg-cover clip flex flex-col items-center justify-center gap-7 py-44">
+        <div className="bg-hero-image bg-cover clip flex flex-col items-center justify-center gap-10 pb-44 pt-9">
+            <div className="TopBar flex flex-row justify-between w-full px-32 pb-24">
+                <Navbar />
+                <SocialIcons />
+            </div>
             <h1 className="text-white text-center text-5xl font-bold">
                 The best products start with Figma
             </h1>
