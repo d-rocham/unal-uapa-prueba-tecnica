@@ -14,7 +14,7 @@ function Header() {
                 </div>
                 <img src={hamburguer} alt="" className="block lg:hidden" />
             </div>
-            <h1 className="text-white text-center text-5xl md:font-extrabold xl:mx-96 -mb-6">
+            <h1 className="text-white text-center text-4xl xl:text-5xl md:font-extrabold xl:mx-96 -mb-6">
                 The best products start with Figma
             </h1>
             <p className="text-white text-center mb-5">

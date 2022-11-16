@@ -29,7 +29,7 @@ function Features() {
                     className="rounded-2xl shadow-2xl w-11/12 md:order-last"
                     poster={videoPoster}
                 />
-                <div className="flex flex-col md:flex-row gap-9 pt-2">
+                <div className="flex flex-col mx-16 md:mx-0 md:flex-row gap-9 pt-2">
                     <IconInfo
                         icon={<IoShapesSharp />}
                         subtitle="OpenType features. Variable fonts"
