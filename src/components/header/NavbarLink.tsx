@@ -5,7 +5,7 @@ type Props = {
 };
 function NavbarLink({ text }: Props) {
     return (
-        <div className="text-white font-light text-base hidden md:block">
+        <div className="text-white font-light text-base hidden lg:block">
             {text}
         </div>
     );
