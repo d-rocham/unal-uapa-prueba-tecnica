@@ -5,7 +5,9 @@ type Props = {
 };
 function BodySection({ children }: Props) {
     return (
-        <div className="flex flex-col items-center gap-7 mx-5">{children}</div>
+        <div className="flex flex-col items-center gap-7 mx-5 xl:mx-40">
+            {children}
+        </div>
     );
 }
 

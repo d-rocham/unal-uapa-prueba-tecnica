@@ -2,8 +2,8 @@ import React from 'react';
 
 function ContactUsForm() {
     return (
-        <div className="border-[#E8E8E8] border rounded-md shadow-md p-4">
-            <form className="flex flex-col gap-3">
+        <div className="border-[#E8E8E8] border rounded-md shadow-md p-4 xl:order-first">
+            <form className="flex flex-col gap-3 xl:py-9">
                 <h4 className="text-center text-lg mb-6 font-black text-secondary-dark">
                     Contact Us
                 </h4>
