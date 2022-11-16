@@ -3,7 +3,7 @@ import Footer from './components/Components';
 
 function App() {
     return (
-        <div className="App">
+        <div className="App min-h-screen flex flex-col justify-between">
             <Footer />
         </div>
     );

@@ -33,7 +33,7 @@ function Footer() {
     ];
 
     return (
-        <div className="Footer fixed left-0 bottom-0 w-full flex flex-col gap-8 xl:flex-row xl:justify-center xl:gap-16 p-10 bg-dark">
+        <div className="Footer w-full flex flex-col gap-8 xl:flex-row xl:justify-center xl:gap-16 p-10 bg-dark">
             {FOOTER_COLUMNS_DATA.map((footerColumn) => (
                 <FooterColumn info={footerColumn} />
             ))}
