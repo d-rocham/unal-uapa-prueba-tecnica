@@ -51,7 +51,7 @@ function ContactUs() {
                             width="600"
                             height="450"
                             loading="lazy"
-                            className="hidden xl:block xl:h-72 xl:w-96"
+                            className="hidden xl:block xl:h-72 xl:w-9/12"
                         />
                         <div className="hidden xl:block xl:self-start">
                             <SocialIcons primary />

@@ -3,7 +3,7 @@ import React from 'react';
 function ContactUsForm() {
     return (
         <div className="border-[#E8E8E8] border rounded-md shadow-md p-4 xl:order-first">
-            <form className="flex flex-col gap-3 xl:py-9">
+            <form className="flex flex-col gap-5 xl:py-5">
                 <h4 className="text-center text-lg mb-6 font-black text-secondary-dark">
                     Contact Us
                 </h4>
@@ -25,7 +25,7 @@ function ContactUsForm() {
                     name=""
                     id=""
                     placeholder="Your Message"
-                    className="border-[#E8E8E8] bg-[#F5F5F5] placeholder:text-dark"
+                    className="border-[#E8E8E8] bg-[#F5F5F5] placeholder:text-dark h-44"
                 />
                 <input
                     type="submit"

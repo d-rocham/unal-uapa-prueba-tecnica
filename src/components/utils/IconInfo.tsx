@@ -11,7 +11,7 @@ function IconInfo({ icon, text, wraps = false, primary }: Props) {
     return (
         <div
             className={`IconInfoContainer flex ${
-                wraps ? 'flex-col items-center' : 'flex-row'
+                wraps ? 'flex-col items-center text-center' : 'flex-row'
             } gap-2 font-thin`}
         >
             <div
