@@ -31,7 +31,7 @@ function IconInfo({
             {subtitle ? <span className="font-medium">{subtitle}</span> : ''}
             <p
                 className={`Description ${
-                    primary ? 'text-secondary-dark' : 'text-white'
+                    primary ? 'text-secondary-dark text-xs' : 'text-white'
                 }`}
             >
                 {text}

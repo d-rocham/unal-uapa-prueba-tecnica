@@ -33,11 +33,11 @@ function Footer() {
     ];
 
     return (
-        <div className="Footer w-full flex flex-col gap-8 md:flex-row md:justify-center md:gap-16 p-10 bg-dark">
+        <div className="Footer w-full flex flex-col gap-8 md:flex-row md:justify-center md:gap-16 p-10 py-16 xl:py-36 bg-dark">
             {FOOTER_COLUMNS_DATA.map((footerColumn) => (
                 <FooterColumn info={footerColumn} />
             ))}
-            <div className="LastColumn flex flex-col gap-4 md:justify-center items-center md:items-start mt-8 md:mt-0">
+            <div className="LastColumn flex flex-col gap-4 md:justify-center items-center md:items-start">
                 <IconInfo
                     text="7480 Mockingbird Hill"
                     icon={<MdOutlineLocationOn />}
