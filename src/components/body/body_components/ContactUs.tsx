@@ -33,6 +33,13 @@ function ContactUs() {
                         text="willie.jennings@example.com"
                     />
                 </div>
+                <form>
+                    <h4>Contact Us</h4>
+                    <input type="text" name="" id="" />
+                    <input type="email" name="" id="" />
+                    <textarea name="" id="" cols={30} rows={10} />
+                    <input type="submit" value="" />
+                </form>
             </>
         </BodySection>
     );
