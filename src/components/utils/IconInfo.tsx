@@ -23,7 +23,7 @@ function IconInfo({ icon, text, wraps = false, primary }: Props) {
             </div>
             <p
                 className={`Description ${
-                    primary ? 'text-secondary-text' : 'text-white'
+                    primary ? 'text-secondary-dark' : 'text-white'
                 }`}
             >
                 {text}
