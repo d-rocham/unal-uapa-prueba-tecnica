@@ -7,12 +7,12 @@ const hamburguer = require('../../assets/hamburger.png');
 function Header() {
     return (
         <div className="bg-hero-image bg-cover clip flex flex-col items-center justify-center gap-10 pb-44 pt-9">
-            <div className="TopBar flex flex-row justify-between items-center w-full xl:px-32 px-4 pb-24">
+            <div className="TopBar flex flex-row justify-between items-center w-full md:px-32 px-4 pb-24">
                 <Navbar />
-                <div className="hidden xl:block">
+                <div className="hidden md:block">
                     <SocialIcons />
                 </div>
-                <img src={hamburguer} alt="" className="block xl:hidden" />
+                <img src={hamburguer} alt="" className="block md:hidden" />
             </div>
             <h1 className="text-white text-center text-5xl font-bold -mb-6">
                 The best products start with Figma
