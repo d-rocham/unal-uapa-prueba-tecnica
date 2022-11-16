@@ -14,7 +14,13 @@ function Features() {
                     title="Features"
                     description="Most calendars are designed for teams. Slate is designed for freelancers"
                 />
-                <div>
+                <video
+                    controls
+                    autoPlay
+                    className="rounded-lg shadow-lg w-9/12 xl:order-last"
+                    poster="https://ingenieria.bogota.unal.edu.co/images/recursos/noticias/viejito-01.png"
+                />
+                <div className="flex flex-col xl:flex-row gap-9 pt-2">
                     <IconInfo
                         icon={<IoShapesSharp />}
                         subtitle="OpenType features. Variable fonts"
