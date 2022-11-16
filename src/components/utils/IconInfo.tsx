@@ -19,7 +19,7 @@ function IconInfo({
         <div
             className={`IconInfoContainer flex ${
                 wraps ? 'flex-col items-center text-center' : 'flex-row'
-            } gap-2 font-thin`}
+            } gap-2 `}
         >
             <div
                 className={`Icon ${

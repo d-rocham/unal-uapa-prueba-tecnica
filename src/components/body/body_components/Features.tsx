@@ -6,6 +6,8 @@ import { IconInfo, useWindowWidth } from '../../utils/Utils';
 
 import { BodySection, SectionDescription } from './BodyComponents';
 
+const videoPoster = require('../../../assets/videoposter.png');
+
 function Features() {
     const windowWidth = useWindowWidth();
 
@@ -24,8 +26,8 @@ function Features() {
                 <video
                     controls
                     autoPlay
-                    className="rounded-lg shadow-lg w-9/12 md:order-last"
-                    poster="https://ingenieria.bogota.unal.edu.co/images/recursos/noticias/viejito-01.png"
+                    className="rounded-2xl shadow-2xl w-11/12 md:order-last"
+                    poster={videoPoster}
                 />
                 <div className="flex flex-col md:flex-row gap-9 pt-2">
                     <IconInfo
