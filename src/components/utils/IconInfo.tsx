@@ -3,11 +3,18 @@ import React, { ReactElement } from 'react';
 type Props = {
     icon: ReactElement;
     text: string;
+    subtitle?: string | undefined;
     wraps?: boolean;
     primary: boolean;
 };
 
-function IconInfo({ icon, text, wraps = false, primary }: Props) {
+function IconInfo({
+    icon,
+    text,
+    subtitle = undefined,
+    wraps = false,
+    primary
+}: Props) {
     return (
         <div
             className={`IconInfoContainer flex ${
@@ -21,6 +28,7 @@ function IconInfo({ icon, text, wraps = false, primary }: Props) {
             >
                 {icon}
             </div>
+            {subtitle ? <span className="font-medium">{subtitle}</span> : ''}
             <p
                 className={`Description ${
                     primary ? 'text-secondary-dark' : 'text-white'
