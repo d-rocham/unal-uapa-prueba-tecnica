@@ -19,7 +19,9 @@ function ContactUs() {
                     title="Contact Us"
                     description="Most calendars are designed for teams. Slate is designed for freelancers."
                 />
-                <SocialIcons primary />
+                <div className="xl:hidden">
+                    <SocialIcons primary />
+                </div>
                 <div className="ContactInfoIcons flex flex-col justify-start gap-4">
                     <IconInfo
                         icon={<MdOutlineLocationOn />}
