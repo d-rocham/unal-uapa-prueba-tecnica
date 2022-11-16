@@ -17,7 +17,7 @@ function IconInfo({ icon, text, wraps = false, primary }: Props) {
             <div
                 className={`Icon ${
                     primary ? 'text-primary' : 'text-white'
-                } text-lg`}
+                } text-3xl`}
             >
                 {icon}
             </div>
