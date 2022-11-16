@@ -7,9 +7,9 @@ type Props = {
 
 function SectionDescription({ title, description }: Props) {
     return (
-        <div>
-            <h2 className="text-xl">{title}</h2>
-            <p className="text-base">{description}</p>
+        <div className="text-center">
+            <h2 className="text-xl text-dark">{title}</h2>
+            <p className="text-base text-secondary-dark">{description}</p>
         </div>
     );
 }
