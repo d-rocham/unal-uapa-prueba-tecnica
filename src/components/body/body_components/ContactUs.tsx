@@ -4,7 +4,7 @@ import {
     MdOutlinePhoneIphone,
     MdOutlineEmail
 } from 'react-icons/md';
-import { SocialIcons, IconInfo } from '../../utils/Utils';
+import { SocialIcons, IconInfo, useWindowWidth } from '../../utils/Utils';
 import {
     BodySection,
     SectionDescription,
@@ -12,6 +12,8 @@ import {
 } from './BodyComponents';
 
 function ContactUs() {
+    const windowWidth = useWindowWidth();
+
     return (
         <BodySection>
             <>
@@ -29,16 +31,19 @@ function ContactUs() {
                                 icon={<MdOutlineLocationOn />}
                                 primary
                                 text="6386 Spring St Anchorage, Georgia 12473 United States"
+                                wraps={windowWidth >= 1140}
                             />
                             <IconInfo
                                 icon={<MdOutlinePhoneIphone />}
                                 primary
                                 text="(843) 555-0130"
+                                wraps={windowWidth >= 1140}
                             />
                             <IconInfo
                                 icon={<MdOutlineEmail />}
                                 primary
                                 text="willie.jennings@example.com"
+                                wraps={windowWidth >= 1140}
                             />
                         </div>
                         <iframe
