@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from '../../utils/Utils';
 
 function ContactUsForm() {
     return (
@@ -27,11 +28,7 @@ function ContactUsForm() {
                     placeholder="Your Message"
                     className="border-[#E8E8E8] bg-[#F5F5F5] placeholder:text-dark h-44"
                 />
-                <input
-                    type="submit"
-                    value="send"
-                    className="bg-primary  rounded-3xl"
-                />
+                <Button description="Send" />
             </form>
         </div>
     );
