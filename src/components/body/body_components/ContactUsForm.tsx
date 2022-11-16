@@ -3,8 +3,8 @@ import { Button } from '../../utils/Utils';
 
 function ContactUsForm() {
     return (
-        <div className="border-[#E8E8E8] border rounded-md shadow-md p-4 xl:order-first">
-            <form className="flex flex-col gap-5 xl:py-5">
+        <div className="border-[#E8E8E8] border rounded-md shadow-md p-4 md:order-first">
+            <form className="flex flex-col gap-5 md:py-5">
                 <h4 className="text-center text-lg mb-6 font-black text-secondary-dark">
                     Contact Us
                 </h4>

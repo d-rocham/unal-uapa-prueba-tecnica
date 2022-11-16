@@ -21,29 +21,29 @@ function ContactUs() {
                     title="Contact Us"
                     description="Most calendars are designed for teams. Slate is designed for freelancers."
                 />
-                <div className="xl:hidden">
+                <div className="md:hidden">
                     <SocialIcons primary />
                 </div>
-                <div className="flex flex-col items-center gap-7 xl:flex-row xl:order-last">
+                <div className="flex flex-col items-center gap-7 md:flex-row md:order-last">
                     <div className="flex flex-col gap-6 justify-center items-center">
-                        <div className="ContactInfoIcons flex flex-col justify-start gap-4 xl:flex-row">
+                        <div className="ContactInfoIcons flex flex-col justify-start gap-4 md:flex-row">
                             <IconInfo
                                 icon={<MdOutlineLocationOn />}
                                 primary
                                 text="6386 Spring St Anchorage, Georgia 12473 United States"
-                                wraps={windowWidth >= 1140}
+                                wraps={windowWidth >= 768}
                             />
                             <IconInfo
                                 icon={<MdOutlinePhoneIphone />}
                                 primary
                                 text="(843) 555-0130"
-                                wraps={windowWidth >= 1140}
+                                wraps={windowWidth >= 768}
                             />
                             <IconInfo
                                 icon={<MdOutlineEmail />}
                                 primary
                                 text="willie.jennings@example.com"
-                                wraps={windowWidth >= 1140}
+                                wraps={windowWidth >= 768}
                             />
                         </div>
                         <iframe
@@ -51,9 +51,9 @@ function ContactUs() {
                             width="600"
                             height="450"
                             loading="lazy"
-                            className="hidden xl:block xl:h-72 xl:w-9/12"
+                            className="hidden md:block md:h-72 md:w-9/12"
                         />
-                        <div className="hidden xl:block xl:self-start">
+                        <div className="hidden md:block md:self-start">
                             <SocialIcons primary />
                         </div>
                     </div>
