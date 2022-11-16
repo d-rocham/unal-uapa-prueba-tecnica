@@ -19,7 +19,12 @@ function ContactUs() {
             <>
                 <SectionDescription
                     title="Contact Us"
-                    description="Most calendars are designed for teams. Slate is designed for freelancers."
+                    description="Most calendars are designed for teams."
+                    responsiveText={
+                        windowWidth >= 768
+                            ? ' Slate is designed for freelancers'
+                            : undefined
+                    }
                 />
                 <div className="md:hidden">
                     <SocialIcons primary />

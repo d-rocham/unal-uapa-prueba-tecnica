@@ -7,12 +7,19 @@ import { IconInfo, useWindowWidth } from '../../utils/Utils';
 import { BodySection, SectionDescription } from './BodyComponents';
 
 function Features() {
+    const windowWidth = useWindowWidth();
+
     return (
         <BodySection>
             <>
                 <SectionDescription
                     title="Features"
-                    description="Most calendars are designed for teams. Slate is designed for freelancers"
+                    description="Most calendars are designed for teams."
+                    responsiveText={
+                        windowWidth >= 768
+                            ? ' Slate is designed for freelancers'
+                            : undefined
+                    }
                 />
                 <video
                     controls
